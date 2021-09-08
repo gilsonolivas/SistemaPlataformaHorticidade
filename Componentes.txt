@@ -1,0 +1,16 @@
+Fonte
+arduino uno 
+
+modulo rele		
+modulo mosfet		
+modulo bluetooth	   resistor para ponte
+modulo LCD
+
+sensor luminosidade
+sensor ph
+sensor tdp		   vamos fabricar
+sensor temperatura
+
+botoes de pressao
+jumpers macho-macho 
+jumpers femea-femea

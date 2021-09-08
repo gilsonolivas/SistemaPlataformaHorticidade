@@ -1,0 +1,47 @@
+
+
+//////////////////////////////////////////////////
+***************   IMPLEMENTAR   *****************
+
+implementar correção quando o millis reiniciar  X
+implementar verificação de conexão (bluetooth)
+implementar nome do dispositivo
+
+
+//////////////////////////////////////////////////
+****************   BLUETOOTH   ******************
+
+3. Reset the Bluetooth name
+Send: AT+NAMEname
+Back: OKname 
+
+Parameter name: Name needed to be set (20 characters limited)
+Example:
+Send: AT+NAMEbill_gates
+Back: OKname
+Now, the Bluetooth name is reset to be “bill_gates”
+
+The parameter can be kept even though the power is cut off. User can see the new Bluetooth name
+in PDA refresh service. (Note: The name is limited in 20 characters.)
+
+
+Baud  9600  
+
+
+//////////////////////////////////////////////////
+****************   millis   ******************
+
+Millis MAx  = 4,294,967,295
+
+
+//////////////////////////////////////////////////
+****************   SERIAL   ******************
+
+Verifica se algo foi recebido:
+(Serial.available() > 0)
+
+
+//////////////////////////////////////////////////
+****************   FUNÇÕES   ******************
+
+
